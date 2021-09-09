@@ -49,7 +49,6 @@ Let's do this!
 
 ### Iteration 1: Navbar
 
-- The navbar should be `position: fixed`.
 - Align the logo to the left and the `ul` with the links to the right, either using `float` or `flex`.
 
 ### Iteration 2: Large image background with text
