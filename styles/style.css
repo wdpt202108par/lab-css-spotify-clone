@@ -1,3 +1,35 @@
+body{
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 200px;
+    align-items: left;
+}
+
+ul {
+    display: flex;
+   
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+li {
+    margin-right: 5px;
+}
+
+/* add as background image (concert image)
+
 /*
 Colors:
 
