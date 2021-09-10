@@ -1,8 +1,119 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+}
 
-*/
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body p {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    position: absolute;
+    width: 20%;
+}
+
+
+/* List styles */
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header styles */
+#header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-img > img {
+    position: relative;
+    object-fit: cover;
+}
+
+#header-img > div {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+
+/* Spotify section */
+#spotify-section {
+    text-align: center;
+}
+
+#spotify-section > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+#spotify-section > h2 {
+    text-decoration: underline var(--green-color) 3px;
+    text-underline-offset: 0.3em;
+ }
+
+.spotify-advantage > h3 {
+    color: var(--green-color);
+}
+
+.spotify-advantage > img {
+    height: 50px;
+}
+
+.spotify-advantage {
+    padding: 10px 20px;
+}
+
+/* Artist section */
+#artist-section {
+    background: var(--green-color);
+    color: white;
+    padding: 30px;
+}
+
+#artist-section > h2 {
+    text-decoration: underline white 3px;
+    text-underline-offset: 0.3em;
+ }
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.screenshot {
+    width: 30%;
+}
+
+.spotify-features {
+    width: 30%;
+}
