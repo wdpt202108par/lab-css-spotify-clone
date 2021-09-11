@@ -4,9 +4,10 @@
     --green-color: #00B172;
 }
 
-/* Global styles */
+/* Global */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 body p {
@@ -18,8 +19,12 @@ img {
     max-width: 100%;
 }
 
+h1 {
+    font-weight: normal;
+}
 
-/* Nav bar styles */
+
+/* Nav bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -31,7 +36,7 @@ nav img {
 }
 
 
-/* List styles */
+/* List */
 ul {
     display: flex;
     width: 50%;
@@ -42,23 +47,13 @@ li {
     list-style: none;
 }
 
-/* Header styles */
-#header-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#header-img > img {
-    position: relative;
-    object-fit: cover;
-}
-
-#header-img > div {
-    position: absolute;
+/* Header */
+header {
+    background: url("../images/landing.jpg") center no-repeat;
+    background-size: cover;
     text-align: center;
-    width: 60%;
     color: white;
+    padding: 150px 200px 200px 200px;
 }
 
 /* Spotify section */
