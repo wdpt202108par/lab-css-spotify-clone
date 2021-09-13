@@ -22,6 +22,7 @@ img{
 .logo{
     width:15%;
     margin-right:30%;
+    padding-left: 30px;
 }
 /*Nav bar*/
 header{
@@ -31,7 +32,7 @@ header{
     
 }
 .nav-bar{
-    width:70%;
+    width:1000px;
 }
 nav ul{
     list-style: none;
@@ -39,33 +40,97 @@ nav ul{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-right:1em;
 }
 
 /*landing image*/
 .landing-image{
-    position: 0, 0;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5%;
+    padding-top: 10px;
     position: relative;
+    padding-bottom: 30px;
 }
 
 h1{
-    color:white;
-    position:absolute;
-    top:50%;
-    left:35%;
     font-size: 5em;
-    align-items: center; 
+    font-weight: 300;
+    top: 500px;
+    left: 200px;
 }
 
-p{
-    color:white;
+#accueil > p{
     font-size: 2.5em;
     font-weight: 300;
+    top: 650px;
+    left: 200px;
+}
+
+.container {
+    color: white;
     position: absolute;
     align-items: center;
-    left:20%;
-    bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 1500px;
+    margin-left: auto; margin-right: auto;
+}
+
+#contenu .box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    padding-top: 75px;
+}
+
+#contenu > h2 {
+    border-bottom: 3px solid #00B172;
+    display: inline;
+    justify-content: center;
+    margin-inline: 800px;
+}
+
+.box > h3 {
+    color: #00B172;
+}
+
+.icon {
+    width: 120px;
+    height: 100px;
+}
+
+.box > p {
+    color: #1A1A1A;
+    font-size: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+#usage {
+    background-color: #00B172;
+    color: #FFF;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+#usage > h2{
+    border-bottom: 3px solid #FFF;
+    display: inline;
+    margin-left: 150px;
+}
+
+.function > p{
+    margin-left: 150px;
+}
+
+.function > h3{
+    margin-left: 150px;
+}
+
+.preview {
+    width: 15%;
+    display: inline-flex;
 }
