@@ -37,6 +37,29 @@ header {
   font-size: 95%;
 }
 
+/*--SECTION 0--*/
+
+.background-img {
+ 
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  color:white;
+  text-align: center;
+  padding:250px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: auto;
+}
+
+.background-img p {
+
+  font-size: larger;
+
+}
+
 /*--Section 1--*/
 
 h2 {
