@@ -82,11 +82,13 @@ a{
 .contenu hr{
     width: 20%;
     color:#00B172;
-    border:solid;
+    border: solid;
 }
 
 .contenu p{
     color:#1A1A1A;
+    width: 300px;
+    margin-left: 120px;
 }
 
 .second-page{
@@ -124,6 +126,7 @@ a{
     background-color: #00B172;
     color: #FFF;
     padding:100px;
+    padding-left: 150px;
 }
 
 .usage p{
@@ -133,6 +136,7 @@ a{
 .last-title{
     display: flex;
     flex-direction: column;
+    width: 522px;
     
 }
 
@@ -150,11 +154,20 @@ a{
 .function{
     flex-direction: column;
 }
+.last-logo {
+    width: 400px;
+}
 
 #icon{
     padding: 150px;
     max-width:30%;
 }
+
+.last-photo {
+    padding-left: 150px;
+}
+
 #preview{
-    max-width: 100%;
+    max-width: 60%;
+    height: auto;
 }
